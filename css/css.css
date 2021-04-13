@@ -1,0 +1,23 @@
+div.rc > div:nth-child(3) > div > div:nth-child(1) > div {
+    display: block !important;
+    opacity: 1;
+    color:#d32240;
+    float: left;
+    padding-right: 10px;
+    margin-left: 1.2em;
+}
+
+div.rc > div:nth-child(3) > div > div:nth-child(1) {
+    display: block !important;
+    float:left;
+}
+div.rc > div:nth-child(3) > div {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+div.rc > div:nth-child(3) > div > div > div > h4,
+div.rc > div:nth-child(3) > div > span ,
+div.rc > div:nth-child(3) > div > div > div > div {
+  display: table-caption !important;
+}
