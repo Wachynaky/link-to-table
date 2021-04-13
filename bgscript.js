@@ -10,10 +10,10 @@ function insertAfter(newNode, referenceNode) {
 var x = document.querySelectorAll("a");
 var MiArray = []
 for (var i = 0; i < x.length; i++) {
-    var textoEnlace = x[i].textContent;
+    var textoEnlace = x[i].href;
     var textoLimpio = textoEnlace.replace(/\s+/g, ' ').trim();
     var cleanlink = x[i].href;
-    MiArray.push([textoLimpio, cleanlink]);
+    MiArray.push([cleanlink]);
 };
 
 function CopiaTexto(text) {
@@ -61,9 +61,9 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 function creaTabla() {
-    var tabla = '<table id="LinksToTable"><thead><th>Name</th><th>Links</th></thead><tbody>';
+    var tabla = '<table id="LinksToTable"><thead><th>Links</th></thead><tbody>';
     for (var i = 0; i < MiArray.length; i++) {
-        tabla += '<tr><td>' + MiArray[i][0] + '</td><td>' + MiArray[i][1] + '</td></tr>';
+        tabla += '<tr><td>' + MiArray[i] + '</td></tr>';
     };
     tabla += '</table>';
 
