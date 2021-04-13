@@ -5,19 +5,19 @@
       "short_name": "Link to Table",
       "description": "Muestra la fecha de publicación de la página en la que estás.",
       "icons": {
-          "16": "images/icon16-2-1.png",
-          "24": "images/icon24-2-1.png",
-          "32": "images/icon32-2-1.png",
-          "64": "images/icon64-2-1.png",
-          "128": "images/icon128-2-1.png"
+          "16": "images/16.png",
+          "24": "images/24.png",
+          "32": "images/32.png",
+          "64": "images/64.png",
+          "128": "images/128.png"
       },
       "browser_action": {
           "default_icon": {
-              "16": "images/icon16-2-1.png",
-              "24": "images/icon24-2-1.png",
-              "32": "images/icon32-2-1.png",
-              "64": "images/icon64-2-1.png",
-              "128": "images/icon128-2-1.png"
+              "16": "images/16.png",
+              "24": "images/24.png",
+              "32": "images/32.png",
+              "64": "images/64.png",
+              "128": "images/128.png"
           }
       },
       "version": "2.0.2",
